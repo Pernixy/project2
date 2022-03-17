@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Smooch-Sans">
 <style>
     h1 {
         position: relative;
         text-align: center;
-        top: 250px;
+        top: 450px;
     }
     p {
         margin: 0;
         text-align: center;
         position: absolute;
         color: rgb(167, 117, 26);
-        top: 65%;
+        top: 80%;
         left: 50%;
         margin-right: -50%;
         transform: translate(-50%, -50%);
@@ -25,10 +26,25 @@
         text-decoration: none;
     }
 
-    div {text-align: center;}
+    input {
+        background-color: rgb(24, 22, 22);
+        border-color: rgb(167, 117, 26);
+        text-align: center;
+        height: 70px;
+        width: 1000px;
+        font-family: 'Tangerine', serif;
+        font-size: 75px;
+        color: rgb(167, 117, 26);
+    }
+
     body, html {
         background-color: rgb(24, 22, 22);
         height: 100%;
+        background: url('../Images/youDied.jpg');
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 </style>
 
@@ -40,10 +56,17 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 style="color: rgb(167, 117, 26); font-size: 150px; font-family:'Tangerine', serif"> Lord of the Elden Scrolls</h1>
+    <h1 id="text" style="color: rgb(238, 235, 231); font-size: 50px; font-family:'Smooch', Sans"> 
+        Your vision goes red. You feel a sharp pain. You fall.
+    </h1>
 
     <p style="font-size: 100px; font-family:'Tangerine', serif"> 
-        <a href="pages/nameEnter.html"> Play
-    </a></p>
+        <a href="badDragon.html"> Retry
+        </a>
+    </p>
 </body>
 </html>
+
+<script>
+
+</script>
